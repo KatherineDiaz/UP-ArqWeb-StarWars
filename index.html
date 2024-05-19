@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Actividad</title>
+</head>
+<body>
+
+    <form action="#" class="formulario" autocomplete="off">
+
+    <h1>Estadisticas Online</h1>
+
+    <div class="input-info">
+        <label for="valor">Valor:</label>
+        <input id="valor">
+        <button id="miBotonGreen"  onclick="registrarValor()">Registrar</button>
+    </div><hr>
+    <div class="input-info">
+        <label for="cantidad">Cantidad:</label >
+        <input type="number" id="cantidad" disabled>
+    </div>
+    <div class="input-info"">
+        <label for="promedio">Promedio:</label>
+        <input type="number" id="promedio" disabled>
+    </div>
+    <div class="input-info"">
+        <label for="mayor">Mayor:</label>
+        <input type="number" id="mayor" disabled> <!--<br/> -->
+    </div>
+    <div class="input-info"">
+        <label for="menor">Menor:</label>
+        <input type="number" id="menor" disabled>
+    </div><hr>
+    <div>
+        <button id="miBotonBlue"  onclick="vaciarValores()">Reset</button>
+    </div>
+</form>
+
+<script src="./script.js"></script>
+</body>
+</html>
